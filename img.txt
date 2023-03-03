@@ -1,0 +1,31 @@
+Hosted images links
+
+banner : https://i.ibb.co/gMJfZ3N/top-section-img.jpg
+
+bannner 2 : https://i.ibb.co/7yNt4N4/top-section-2-img.jpg
+
+footer-banner : https://i.ibb.co/NF0d8D1/footer-banner.jpg
+
+deals-img: https://i.ibb.co/f2QcsGx/deals-img.jpg
+
+facebook-icon: https://i.ibb.co/ygNg4LR/facebook-icon.png
+
+IG-icon: https://i.ibb.co/60fWx2c/IG-icon.png
+
+playstation-controller: https://i.ibb.co/r0pc1Vz/playstation-controller.jpg
+
+playstation-logo: https://i.ibb.co/Dg7m7vX/playstation-logo.png
+
+ps5-covers: https://i.ibb.co/wy6Sktm/ps5-covers.jpg
+
+psvr-2: https://i.ibb.co/Gkh61c1/psvr-2.jpg
+
+snapchat-icon: https://i.ibb.co/W5x3GWk/snapchat-icon.png
+
+sony-monitor: https://i.ibb.co/hdbx08R/sony-monitor.jpg
+
+twitter-icon: https://i.ibb.co/415Jb7K/twitter-icon.png
+
+youtube-icon: https://i.ibb.co/MZ175f1/youtube-icon.png
+
+no -limit: https://i.ibb.co/r2trMSf/no-limit.png
