@@ -38,48 +38,61 @@
         line-height: 20px;
         font-size: 15px;
       } */
-      /* 
-      @media screen and (max-width: 599.98px) {
-        .two-columns .padding {
-          padding-right: 0 !important;
-          padding-left: 0 !important;
+
+      @media screen and (max-width: 370px) {
+        .padding {
+          padding-right: 30px !important;
+          padding-left: 30px !important;
         }
-        img.two-col-img {
-          width: 300px !important;
-          max-width: 300px !important;
+
+        .first-row .padding {
+          padding-top: 24px !important;
         }
-        .two-third-columns .padding {
-          padding-right: 0 !important;
-          padding-left: 0 !important;
+
+        .first-row .content p {
+          display: none;
         }
-        .two-third-columns .padding.first {
-          padding-bottom: 0 !important;
-        }
-        .two-third-columns .padding.last {
-          padding-top: 0 !important;
-        }
-        img.one-third-col-img {
-          width: 200px !important;
-          max-width: 200px !important;
-        }
-        .two-third-columns .content {
+
+        .first-row .content a img,
+        .first-row .content a span {
           text-align: center !important;
+          display: block !important;
+          margin: 0 auto;
         }
-        img.three-col-img-last {
-          width: 200px !important;
-          max-width: 200px !important;
+
+        .first-row .content a img {
+          padding-bottom: 10px;
         }
-        .three-columns .padding {
-          padding-right: 0 !important;
-          padding-left: 0 !important;
+
+        .third-row .content img {
+          padding-top: 20px !important;
+        }
+
+        .last-row .content tr {
+          display: block !important;
+          text-align: center !important;
+          /* prettier-ignore */
+          Margin: 0 auto !important;
+          width: 100% !important;
+        }
+
+        .last-row .content tr td {
+          display: block !important;
+          text-align: center !important;
+          /* prettier-ignore */
+          Margin: 0 auto !important;
+          width: 100% !important;
+        }
+
+        .last-row .important-links td a {
+          display: block !important;
+          padding-bottom: 10px !important;
+        }
+
+        .last-row .important-links span {
+          display: none !important;
         }
       }
-      @media screen and (max-width: 399.98px) {
-        img.three-col-img {
-          width: 200px !important;
-          max-width: 200px !important;
-        }
-      } */
 
       /* Custom Dark Mode Colors */
       /* :root {
@@ -183,7 +196,7 @@
       >
         <!-- START FIRST TABLE ROW -->
         <tr>
-          <td padding="0">
+          <td padding="0" class="first-row">
             <table width="100%" style="border-spacing: 0" role="presentation">
               <tr>
                 <td
@@ -275,7 +288,7 @@
 
         <!-- START SECOND TABLE ROW -->
         <tr>
-          <td padding="0">
+          <td padding="0" class="second-row">
             <table width="100%" style="border-spacing: 0" role="presentation">
               <tr>
                 <td class="padding" style="padding: 40px 45px 0 45px">
@@ -380,7 +393,7 @@
 
         <!-- START THIRD TABLE ROW -->
         <tr>
-          <td padding="0">
+          <td padding="0" class="third-row">
             <table width="100%" style="border-spacing: 0" role="presentation">
               <tr>
                 <td class="padding" style="padding: 40px 45px 0 45px">
@@ -471,7 +484,7 @@
                         >
                           © 2023 Sony Electronics Inc. All rights reserved.
                           Reproduction in whole or in part without written
-                          permission is prohibited. >Sony and INZONE are
+                          permission is prohibited. Sony and INZONE are
                           registered trademarks of Sony Group Corporation or its
                           affiliates. “PlayStation Family Mark,” “PlayStation,”
                           “PS5 logo”, “PS5” and “DualSense Edge” are registered
@@ -493,7 +506,7 @@
 
         <!-- START FOURTH TABLE ROW -->
         <tr>
-          <td padding="0">
+          <td padding="0" class="fourth-row">
             <table width="100%" style="border-spacing: 0" role="presentation">
               <tr>
                 <td class="padding" style="padding: 40px 45px 0 45px">
@@ -585,7 +598,7 @@
 
         <!-- START FITH TABLE ROW -->
         <tr>
-          <td padding="0">
+          <td padding="0" class="fith-row">
             <table width="100%" style="border-spacing: 0" role="presentation">
               <tr>
                 <td class="padding" style="padding: 40px 45px 0 45px">
@@ -674,7 +687,7 @@
 
         <!-- START LAST TABLE ROW -->
         <tr>
-          <td style="padding: 35px 0 0 0">
+          <td style="padding: 35px 0 0 0" class="last-row">
             <table width="100%" style="border-spacing: 0" role="presentation">
               <tr>
                 <td
@@ -761,7 +774,7 @@
                                 style="border-spacing: 0; padding: 20px 0"
                                 role="presentation"
                               >
-                                <tr>
+                                <tr class="socials">
                                   <td
                                     padding="0"
                                     style="
@@ -835,7 +848,7 @@
                                   </td>
                                 </tr>
 
-                                <tr>
+                                <tr class="important-links">
                                   <td padding="0" style="text-align: center">
                                     <a
                                       href="https://playstationpromoemail.netlify.app/"
