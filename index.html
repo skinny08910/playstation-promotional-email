@@ -34,6 +34,11 @@
         color: #363636;
         font-size: 12px;
       }
+
+      .msg-body a {
+        text-decoration: none !important;
+      }
+
       /* .content {
         line-height: 20px;
         font-size: 15px;
@@ -95,20 +100,39 @@
       }
 
       /* Custom Dark Mode Colors */
-      /* :root {
+      :root {
         color-scheme: light dark;
         supported-color-schemes: light dark;
       }
-      @media (prefers-color-scheme: dark) {
+
+      /* @media (prefers-color-scheme: dark) {
         body,
-        center,
-        table,
-        .darkmode-bg {
-          background: #2d2d2d !important;
-          color: #ffffff !important;
+        center {
+          background: #ffffff !important;
         }
-        .darkmode-transparent {
-          background-color: transparent !important;
+
+        .second-row,
+        .third-row,
+        .fourth-row,
+        .fith-row,
+        .footer-row,
+        .table-container {
+          background: #2d2d2d !important;
+          color: #999999 !important;
+        }
+
+        .dark-bg {
+          background-color: #1f1f1f !important;
+        }
+
+        .dark-bg .blue-title {
+          color: #0072ce !important;
+        }
+
+        .footer-row p,
+        .footer-row a,
+        .dark-bg p {
+          color: #ffffff !important;
         }
       } */
     </style>
@@ -182,6 +206,7 @@
 
       <table
         align="center"
+        class="table-container"
         style="
           border-spacing: 0;
           color: #363636;
@@ -299,7 +324,7 @@
                   >
                     <tr>
                       <td
-                        class="content"
+                        class="content dark-bg"
                         padding="0"
                         style="text-align: center; background-color: #ffffff"
                       >
@@ -325,6 +350,7 @@
                             padding-top: 15px;
                             padding-bottom: 10px;
                           "
+                          class="blue-title"
                         >
                           Perfect your Gameplay™
                         </p>
@@ -361,6 +387,7 @@
                             padding-left: 14px;
                             padding-right: 14px;
                             line-height: 24px;
+                            text-decoration: none;
                           "
                           >Shop now</a
                         >
@@ -404,7 +431,7 @@
                   >
                     <tr>
                       <td
-                        class="content"
+                        class="content dark-bg"
                         padding="0"
                         style="text-align: center; background-color: #ffffff"
                       >
@@ -420,6 +447,7 @@
                         /></a>
 
                         <p
+                          class="blue-title"
                           style="
                             /* prettier-ignore */
                             Margin: 0 auto;
@@ -466,6 +494,7 @@
                             padding-left: 14px;
                             padding-right: 14px;
                             line-height: 24px;
+                            text-decoration: none;
                           "
                           >Buy now</a
                         >
@@ -517,7 +546,7 @@
                   >
                     <tr>
                       <td
-                        class="content"
+                        class="content dark-bg"
                         style="
                           text-align: center;
                           background-color: #ffffff;
@@ -536,6 +565,7 @@
                         /></a>
 
                         <p
+                          class="blue-title"
                           style="
                             /* prettier-ignore */
                             Margin: 0 auto;
@@ -583,6 +613,7 @@
                             padding-left: 14px;
                             padding-right: 14px;
                             line-height: 24px;
+                            text-decoration: none;
                           "
                           >Shop now</a
                         >
@@ -609,7 +640,7 @@
                   >
                     <tr>
                       <td
-                        class="content"
+                        class="content dark-bg"
                         style="
                           text-align: center;
                           background-color: #ffffff;
@@ -628,6 +659,7 @@
                         /></a>
 
                         <p
+                          class="blue-title"
                           style="
                             /* prettier-ignore */
                             Margin: 0 auto;
@@ -672,6 +704,7 @@
                             padding-left: 14px;
                             padding-right: 14px;
                             line-height: 24px;
+                            text-decoration: none;
                           "
                           >Pre-order now</a
                         >
@@ -786,7 +819,10 @@
                                       href="https://twitter.com/PlayStation?et_rid=&et_cid=250123-DIRECTNL-GL-HRD-B-FLX&Linkid=250123-DIRECTNL-GL-HRD-B-FLX&emcid=em-pl-461266"
                                       target="_blank"
                                       rel="noopener noreferrer"
-                                      style="padding-right: 15px"
+                                      style="
+                                        padding-right: 15px;
+                                        text-decoration: none;
+                                      "
                                     >
                                       <img
                                         src="https://i.ibb.co/415Jb7K/twitter-icon.png"
@@ -799,7 +835,10 @@
                                       href="https://www.instagram.com/playstation/?et_rid=&et_cid=250123-DIRECTNL-GL-HRD-B-FLX&Linkid=250123-DIRECTNL-GL-HRD-B-FLX&emcid=em-pl-461266"
                                       target="_blank"
                                       rel="noopener noreferrer"
-                                      style="padding-right: 15px"
+                                      style="
+                                        padding-right: 15px;
+                                        text-decoration: none;
+                                      "
                                     >
                                       <img
                                         src="https://i.ibb.co/60fWx2c/IG-icon.png"
@@ -812,7 +851,10 @@
                                       href="https://www.youtube.com/user/playstation"
                                       target="_blank"
                                       rel="noopener noreferrer"
-                                      style="padding-right: 15px"
+                                      style="
+                                        padding-right: 15px;
+                                        text-decoration: none;
+                                      "
                                     >
                                       <img
                                         src="https://i.ibb.co/MZ175f1/youtube-icon.png"
@@ -825,7 +867,10 @@
                                       href="https://www.facebook.com/playstation/?et_rid=&et_cid=250123-DIRECTNL-GL-HRD-B-FLX&Linkid=250123-DIRECTNL-GL-HRD-B-FLX&emcid=em-pl-461266"
                                       target="_blank"
                                       rel="noopener noreferrer"
-                                      style="padding-right: 15px"
+                                      style="
+                                        padding-right: 15px;
+                                        text-decoration: none;
+                                      "
                                     >
                                       <img
                                         src="https://i.ibb.co/ygNg4LR/facebook-icon.png"
@@ -838,6 +883,7 @@
                                       href="https://www.snapchat.com/add/playstation?sender_web_id=be119197-13ed-4134-b06c-b8a206c6b949&device_type=desktop&is_copy_url=true"
                                       target="_blank"
                                       rel="noopener noreferrer"
+                                      style="text-decoration: none"
                                     >
                                       <img
                                         src="https://i.ibb.co/W5x3GWk/snapchat-icon.png"
@@ -859,6 +905,7 @@
                                         line-height: 22px;
                                         color: #ffffff;
                                         padding-right: 8px;
+                                        text-decoration: none;
                                       "
                                       >View online</a
                                     >
@@ -883,6 +930,7 @@
                                         line-height: 22px;
                                         color: #ffffff;
                                         padding: 0 8px;
+                                        text-decoration: none;
                                       "
                                       >Terms</a
                                     >
@@ -907,6 +955,7 @@
                                         line-height: 22px;
                                         color: #ffffff;
                                         padding: 0 8px;
+                                        text-decoration: none;
                                       "
                                       >Personalize</a
                                     >
@@ -931,6 +980,7 @@
                                         line-height: 22px;
                                         color: #ffffff;
                                         padding-left: 8px;
+                                        text-decoration: none;
                                       "
                                       >Unsubscribe</a
                                     >
@@ -952,6 +1002,7 @@
                     width="100%"
                     style="border-spacing: 0; padding: 20px 0"
                     role="presentation"
+                    class="footer-row"
                   >
                     <tr>
                       <td padding="0" style="text-align: center">
